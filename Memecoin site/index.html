@@ -1,144 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="$NEVER - I WILL NEVER SELL THIS COIN NO MATTER WHAT" />
-  <title>$NEVER - I WILL NEVER SELL THIS COIN NO MATTER WHAT</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: white;
-      color: black;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-    }
-
-    /* Floating emoji animation */
-    @keyframes float {
-      0% { transform: translateY(0) rotate(0); }
-      50% { transform: translateY(-20px) rotate(10deg); }
-      100% { transform: translateY(0) rotate(0); }
-    }
-
-    .emoji {
-      position: fixed;
-      font-size: 2rem;
-      animation: float 3s ease-in-out infinite;
-      opacity: 0.7;
-      pointer-events: none;
-    }
-
-    /* Header styling */
-    header {
-      padding: 40px 20px;
-      animation: fadeIn 1.2s ease-in-out;
-    }
-
-    header img {
-      max-width: 220px;
-      margin-bottom: 15px;
-    }
-
-    h1 {
-      font-size: 2.2em;
-      font-weight: bold;
-    }
-
-    h2 {
-      font-size: 1.2em;
-      color: #666;
-    }
-
-    /* Price ticker */
-    .price-ticker {
-      background: black;
-      color: lime;
-      padding: 10px;
-      font-weight: bold;
-      font-family: monospace;
-      margin: 20px 0;
-      border-radius: 6px;
-      display: inline-block;
-    }
-
-    /* CTA Button */
-    .cta a {
-      background: gold;
-      color: black;
-      padding: 14px 28px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-
-    .cta a:hover {
-      background: orange;
-      transform: scale(1.05);
-    }
-
-    footer {
-      background: #f2f2f2;
-      padding: 20px;
-      font-size: 0.9em;
-      margin-top: 30px;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Just Keep Buying Because It Feels Good</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+        .button {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #ff3b3b;
+        }
+        footer {
+            margin-top: 50px;
+            color: #aaa;
+        }
+    </style>
 </head>
 <body>
-
-  <!-- Floating Emojis -->
-  <div class="emoji" style="top: 10%; left: 5%;">🚀</div>
-  <div class="emoji" style="top: 20%; right: 10%; animation-delay: 0.5s;">💎</div>
-  <div class="emoji" style="top: 50%; left: 20%; animation-delay: 1s;">👐</div>
-  <div class="emoji" style="bottom: 15%; right: 15%; animation-delay: 1.5s;">📈</div>
-
-  <!-- Main Content -->
-  <header>
-    <img src="YOUR_LOGO.png" alt="$NEVER Logo" />
-    <h1>I WILL NEVER SELL THIS COIN NO MATTER WHAT</h1>
-    <h2>Ticker: $NEVER</h2>
-    <p>💎 Diamond hands forever. No paper hands allowed. 🚀</p>
-  </header>
-
-  <div class="price-ticker" id="priceTicker">
-    PRICE: $0.000000 — MOON LOADING...
-  </div>
-
-  <section>
-    <h3>About $NEVER</h3>
-    <p>
-      $NEVER is the coin that lives rent-free in your wallet — permanently.  
-      There’s no sell button, only buy and hold.  
-      Our mission: HODL until every chart in the galaxy is green.
-    </p>
-  </section>
-
-  <div class="cta">
-    <a href="https://pump.fun/YOURCOINLINK" target="_blank">🚀 Buy $NEVER Now</a>
-  </div>
-
-  <footer>
-    &copy; 2025 $NEVER Coin — HODL Forever 💎🚀
-  </footer>
-
-  <!-- Script for live price fetch (replace with your API later) -->
-  <script>
-    // Example placeholder — Replace with your pump.fun coin API
-    setInterval(() => {
-      const fakePrice = (Math.random() * 0.00001 + 0.000001).toFixed(8);
-      document.getElementById("priceTicker").innerText = `PRICE: $${fakePrice} — HODL STRONG 💎`;
-    }, 3000);
-  </script>
+    <h1>I Just Keep Buying Because It Feels Good</h1>
+    <p>Welcome to the official page of the most addictive memecoin ever. Hold it, watch it, and just keep buying because it feels good! 🚀💎</p>
+    <a href="#" class="button">Buy Now</a>
+    <footer>
+        <p>Created with ❤️ for memecoin enthusiasts.</p>
+    </footer>
 </body>
 </html>
+
